@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+    <p class="tit">
+        Want your poems to be read ??
+        <br>
+        Upload it here and be read !!
+    </p>
+
+    <form action="/public" method="POST">
+        <div class="form">
+            <p class = 'box'>
+                <label style="padding: 0; margin: 0;">Name : </label> <br>
+                <input class="text" type="text" name = "poet">
+            </p>
+            <p class = 'box'>
+                <label style="padding: 0; margin: 0;">Title : </label> <br>
+                <input class="text" type="text" name = "head">
+            </p>
+            <p class = 'box'>
+                <label style="padding: 0; margin: 0;">Type Your Poem Here !! </label> <br>
+                <textarea rows="6" cols="50" class="text" name="poem" ></textarea>
+            </p>
+            <br>
+            <p><input class="text" type="submit" value="UPLOAD!"></p>
+        </div>
+    </form>
+{% endblock %}

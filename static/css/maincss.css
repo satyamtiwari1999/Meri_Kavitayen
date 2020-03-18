@@ -1,0 +1,156 @@
+
+ul
+{
+    background-color: BLACK;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: left;
+}
+
+li
+{
+    color: BLACK;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+    padding-bottom: 0;
+    border: 0;
+    text-align: LEFT;
+    display: inline-block;
+    font-size: 1.5em;
+}
+a
+{
+    text-decoration-style: none;
+    color: white;
+}
+a:hover
+{
+    text-decoration-style: none;
+    color: red;
+}
+
+
+body
+{
+    border-width: 3px;
+    border-color: white;
+    padding: 0;
+    margin: 0;
+    background: black; text-align: center; font-family: Cinzel; color: white
+}
+
+.upl
+{
+    padding-top: 30px;
+    font-family: 'ink free';
+    text-decoration: underline
+    text-align: center;
+}
+h2.title
+{
+    font-family: "Yu Gothic";
+    font-style: italic;
+    margin-left : 22px;
+    text-decoration: underline;
+}
+.poem
+{
+    font-family: consolas;
+    margin : 0;
+    margin-left : 25px;
+    padding : 0px;
+}
+h3.by
+{
+    font-family: "ink free";
+    margin-left : 300px;
+    font-size: 20px;
+}
+div.poems
+{
+    border-left : 12px;
+    border-left-color: orange;
+    border-left-style: solid;
+    border-radius: 5px;
+    margin : 15px;
+    text-align: left;
+}
+.top
+{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'century';
+    font-size : 2em;
+    text-align: center;
+    border-radius: 6px;
+    border-color: orange;
+    border-width: 3px;
+    border-style: dotted;
+    border-left : 12px;
+    border-left-color: orange;
+    border-left-style: solid;
+}
+#bar
+{
+    border-bottom: 1px;
+    border-top : 0;
+    border-left: 0;
+    border-right : 0;
+    border-color: white;
+    border-style: solid;
+    font-family: "ink free";
+    padding: 0;
+}
+.text
+{
+    border-radius: 6px;
+    border-color: red;
+    background: black;
+    color: yellow;
+    font-size:25px;
+    padding: 2px;
+    margin: 0;
+}
+#upload.hover
+{
+    background-color: orange;
+}
+.form
+{
+    border-color: orange;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 5px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    text-align: left;
+    padding: 0;
+    padding-left:27px;
+    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 500px
+}
+.tit
+{
+    text-align: left;
+    font-size: 2.1em;
+    color: yellow;
+    font-family: "ink free";
+    margin-left: 25px;
+}
+
+.box
+{
+    padding-right: 20px;
+    margin: 0;
+    font-family: "ink free";
+    font-weight: bold;
+    font-size: 2em;
+}

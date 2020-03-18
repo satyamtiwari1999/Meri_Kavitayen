@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="top">
+    ''Poetry comes from highest happiness or deepest sorrow''
+    <br>
+</div>
+    {% for i in range(0, length) %}
+        <div class="poems">
+            <h2 class="title">{{ titles[i] }}</h2>
+            {% for j in poems[i] %}
+            <p class="poem">{{ j }}</p>
+            {% endfor %}
+            <h3 class="by">   - {{ names[i] }}</h3>
+        </div>
+    {% endfor %}
+{% endblock %}
