@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <nav class="title">
+        UPLOAD YOUR POEMS HERE !!
+    </nav>
+    <nav class="f">
+        <form class="form" action="/public" method="POST">
+            <div>
+                    <p>
+                        <label>Name : </label> <br>
+                        <input class="upload" type="text" name = "poet">
+                    </p>
+                    <p>
+                        <label>Title : </label> <br>
+                        <input type="text" class="upload" name = "head">
+                    </p>
+                    <p>
+                        <label>Type Your Poem Here: </label> <br>
+                        <textarea class="upload" rows="6" cols="50"name="poem" ></textarea>
+                    </p>
+                    <p><input class="new_button" type="submit" value="UPLOAD!"></p>
+            </div>
+        </form>
+    </nav>
+
+{% endblock %}
